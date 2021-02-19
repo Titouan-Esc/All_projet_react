@@ -1,11 +1,7 @@
 import './scss/style.scss';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import NavBar from './components/NavBar';
-
-
-// const routes = [
-//   {path}
-// ]
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -13,9 +9,7 @@ function App() {
       <main>
         <NavBar/>
         <Switch>
-          <div className="App">
-            
-          </div>
+          <Route path="/" exact component = {Home} />
         </Switch>
       </main>
     </Router>
