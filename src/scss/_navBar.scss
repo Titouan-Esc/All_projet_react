@@ -1,0 +1,26 @@
+nav {
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(to left, black, white);
+
+  img {
+    width: 5vw;
+    height: 10vh;
+    border-radius: 50%;
+  }
+
+  div {
+    width: 10vw;
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      &:hover {
+        color: plum;
+        cursor: pointer;
+      }
+    }
+  }
+}
