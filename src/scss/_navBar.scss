@@ -16,10 +16,22 @@ nav {
     display: flex;
     justify-content: space-between;
 
-    p {
-      &:hover {
-        color: plum;
-        cursor: pointer;
+    .select {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+
+      p {
+        width: 10vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:hover {
+          color: plum;
+          cursor: pointer;
+        }
       }
     }
   }

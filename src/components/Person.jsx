@@ -1,18 +1,18 @@
 const Person = ({combattant}) => {
     return (
-        <>
+        <div className="container_perso">
         {combattant.map((homme) => {
             const {id, name, photo, job} = homme;
             return(
-                <div key={id}>
-                    <h2>{name}</h2>
+                <div className="container" key={id}>
                     <img src={photo} alt=""/>
+                    <h2>{name}</h2>
                     <p>{job}</p>
                 </div>
             )
         })};
             
-        </>
+        </div>
     );
 };
 
