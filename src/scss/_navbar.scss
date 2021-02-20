@@ -1,0 +1,25 @@
+nav {
+  height: 30vh;
+  @include flex(space-around, column);
+
+  .button_and_recherche {
+    button {
+      @include button;
+
+      &:hover {
+        @include hover;
+      }
+    }
+  }
+
+  .choises {
+    button {
+      @include button;
+      margin: 0 10px;
+
+      &:hover {
+        @include hover;
+      }
+    }
+  }
+}
