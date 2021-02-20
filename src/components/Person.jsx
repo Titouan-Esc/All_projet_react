@@ -19,7 +19,6 @@ const Person = ({combattant}) => {
                     )
                 })};
             </div>
-            
         </div>
     );
 };
