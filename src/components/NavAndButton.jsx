@@ -1,3 +1,6 @@
+import { NavLink } from 'react-router-dom'
+
+
 const NavAndButton = () => {
     return (
         <nav>
@@ -7,10 +10,18 @@ const NavAndButton = () => {
                 <button>Serch</button>
             </div>
             <div className="choises">
-                <button>Bouffe</button>
-                <button>Montagnes</button>
-                <button>Oiseaux</button>
-                <button>Plage</button>
+                <NavLink to="/">
+                    <p>Bouffes</p>
+                </NavLink>
+                <NavLink to="/Montaigne">
+                    <p>Montagnes</p>
+                </NavLink>
+                <NavLink to="/Plage">
+                    <p>Plages</p>
+                </NavLink>
+                <NavLink to="/Oiseaux">
+                    <p>Oiseaux</p>
+                </NavLink>
             </div>
         </nav>
     )

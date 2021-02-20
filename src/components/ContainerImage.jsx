@@ -1,8 +1,15 @@
-const ContainerImage = () => {
+const ContainerImage = ({image}) => {
     return (
-        <div>
-            
-        </div>
+        <>
+            {image.map((fond) => {
+                const {id, image} = fond;
+                return (
+                    <div key={id}>
+                        <img src={image} alt="Image"/>
+                    </div>
+                )
+            })}
+        </>
     )
 }
 
