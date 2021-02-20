@@ -17,19 +17,15 @@ nav {
     justify-content: space-between;
 
     .select {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      border-radius: 8px;
       background-color: white;
 
       p {
-        width: 10vw;
         display: flex;
         justify-content: center;
         align-items: center;
 
         &:hover {
-          color: plum;
           cursor: pointer;
         }
       }

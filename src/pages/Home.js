@@ -7,7 +7,9 @@ const Home = () => {
     const [combattant, setCombattant] = useState(data);
     return (
         <>
-        <Person combattant={combattant}/>
+        <Person combattant={combattant}>
+        </Person>
+            <button onClick={() => setCombattant([])}>Enleve la team</button>
         </>
     );
 };
