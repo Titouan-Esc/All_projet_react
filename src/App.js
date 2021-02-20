@@ -14,10 +14,10 @@ function App() {
          <main>
           <NavAndButton/>
           <Switch>
-            <Route path="/" exact Component= {Bouffe}/>
-            <Route path="/Montaigne" Component={Montaigne}/>
-            <Route path="/Oiseaux" Component={Oiseaux} />
-            <Route path="/Plage" Component={Plage}/>
+            <Route path="/" exact component= {Bouffe}/>
+            <Route path="/Montaigne" component={Montaigne}/>
+            <Route path="/Oiseaux" component={Oiseaux} />
+            <Route path="/Plage" component={Plage}/>
           </Switch>
         </main>
       </Router>
