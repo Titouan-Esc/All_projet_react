@@ -10,17 +10,17 @@ import scss from './scss/style.scss';
 
 function App() {
   return (
-    <main>
       <Router>
-        <NavAndButton/>
-        <Switch>
-          <Route path="/" exact Component= {Bouffe}/>
-          <Route path="/Montaigne" Component={Montaigne}/>
-          <Route path="/Oiseaux" Component={Oiseaux} />
-          <Route path="/Plage" Component={Plage}/>
-        </Switch>
+         <main>
+          <NavAndButton/>
+          <Switch>
+            <Route path="/" exact Component= {Bouffe}/>
+            <Route path="/Montaigne" Component={Montaigne}/>
+            <Route path="/Oiseaux" Component={Oiseaux} />
+            <Route path="/Plage" Component={Plage}/>
+          </Switch>
+        </main>
       </Router>
-    </main>
   );
 }
 
