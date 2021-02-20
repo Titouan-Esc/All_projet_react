@@ -1,0 +1,20 @@
+.container_image {
+  width: 50%;
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+
+  div {
+    margin: 0 15px;
+
+    img {
+      width: 10vw;
+      height: 15vh;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
